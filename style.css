@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben&family=IBM+Plex+Mono:wght@600&family=Qahiri&display=swap');
+
+body {
+    height: 100vh;
+    background-color: #F3EEE8;
+	background-size: cover;
+    background-attachment: fixed;
+}
+
+.name {
+    font-family: Qahiri;
+    color:#E13700;
+    font-size: 240px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu {
+    font-family: Corben;
+    font-size: 27px;
+}
+
+a.about {
+    position: fixed;
+    top: 32px;
+    left: 32px;
+    text-decoration: none;
+    color:#E13700;
+}
+
+a.about:hover {
+    text-decoration: underline;
+    transform: scale(104%);
+    transition: transform 0.3s;
+}
+
+a.contact {
+    position: fixed;
+    top: 28px;
+    right: 28px;
+    text-decoration: none;
+    color:#E13700;
+}
+
+a.contact:hover {
+    text-decoration: underline;
+    transform: scale(104%);
+    transition: transform 0.3s;
+}
+
+a.words {
+    position: fixed;
+    bottom: 28px;
+    left: 28px;
+    text-decoration: none;
+    color:#E13700;
+}
+
+a.words:hover {
+    text-decoration: underline;
+    transform: scale(104%);
+    transition: transform 0.3s;
+}
+
+a.visuals {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    text-decoration: none;
+    color:#E13700;
+}
+
+a.visuals:hover {
+    text-decoration: underline;
+    transform: scale(104%);
+    transition: transform 0.3s;
+}
+
+.name-about {
+    font-family: Qahiri;
+    color:#E13700;
+    font-size: 64px;
+    top: 24px;
+    text-decoration: none;
+
+    margin: 0 auto;
+    
+    /* top: 15px;
+    right: 40%; */
+    width: 100%;
+    position: absolute;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+a.name-about:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.container {
+    border: 1px solid #E13700;
+    margin: 100px;
+    padding: 50px;
+
+    position: fixed;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bio {
+    font-family: Corben;
+    font-size: 16px;
+}
+
+.hands {
+    height: 250px; 
+    padding: 50px;
+}
